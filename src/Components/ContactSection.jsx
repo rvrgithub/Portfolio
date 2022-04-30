@@ -5,12 +5,12 @@ import { AiOutlineGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
 import {AiOutlineTwitter}from "react-icons/ai"
 import{AiOutlineMail} from "react-icons/ai"
-import { useRef } from 'react';
+// import { useRef } from 'react';
 
 
 import Fade from "react-reveal/Fade"
 export function ContactSection() {
-  const form = useRef();
+  // const form = useRef();
 
   
   
@@ -29,7 +29,7 @@ export function ContactSection() {
         <a href="https://twitter.com/Radhika02747343" rel="noreferrer" target="_blank">
             <AiOutlineTwitter className={styles.gitIcon} />
           </a>
-          <a href="http://instagram.com/radhikaverma15" target="_blank">
+          <a href="http://instagram.com/radhikaverma15" rel="noreferrer" target="_blank">
             <AiOutlineInstagram className={styles.emailicon}  />
           </a>
           <a
