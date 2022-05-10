@@ -15,7 +15,56 @@ const Project=()=>{
         <p data-aos = 'flip-up' data-aos-duration="1500">Projects</p>
         </div>
 
-        {/* TOI CLONE */}
+{/* ssense Project */}
+        <div className={styles.toi}
+          data-aos="fade-up" 
+          data-aos-offset="120"
+            // data-aos-delay="800"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out">
+              <div>
+<h3>ssense.com clone</h3>
+                  <h5>SSENSE is a multi-brand retailer based in Montreal, Canada specialising in the sale of designer fashion and high end streetwear.</h5>
+                  <p>
+                      <div>Tools : React| Redux | HTML5 | CSS3 | ES6 JavaScript | NodeJs | MongoDB | npm packages | Herocku | Chakra UI
+
+                      </div>
+                      <div>Features :</div>
+                      <div>
+                          <ul>
+                              <li>A collaborative project built by a team of 6,executed in a week.
+                              <li>Worked on the frontend and backend Part</li>  
+                              <li>Built authentication and integrated it with the frontend.</li>
+                              <li>Users can register and login to the website, go to product Page and Apply some Filter And sorting Functionality</li>
+                              <li>Users can add the product to cart/Wishlist and Checkout to Payment</li>
+                              </li>
+                          </ul>
+                      </div>
+                  </p>
+                  
+                  <div>
+                        <button>
+                        <a href='https://ssenseprojectclone.vercel.app/' target="_blank" rel="noreferrer">
+                                DEMO
+                        </a>
+                     </button>
+                      <button>
+                         <a href='https://github.com/Rash6/ssense.com' target="_blank" rel="noreferrer">
+                             VIEW CODE
+                          </a>
+                      </button>
+                  </div>
+              </div>
+              
+              <div>
+                <img src='/ssense.jpg' alt='ssense.com'/>
+              </div>
+
+          </div>
+
+
+
+        {/* Cb2 CLONE */}
           <div className={styles.toi} 
           data-aos="fade-up" 
           data-aos-offset="120"
@@ -39,7 +88,7 @@ const Project=()=>{
                   
                   <div>
                       <button>
-                        <a href='https://github.com/somi-kumari/cb2.com-clone_U4' target="_blank" rel="noreferrer">
+                        <a href='https://cb2clone.netlify.app/' target="_blank" rel="noreferrer">
                                 DEMO
                         </a>
                      </button>
@@ -57,6 +106,8 @@ const Project=()=>{
               </div>
 
           </div>
+
+          
 
           {/* Tic-Tac-Toe */}
 
