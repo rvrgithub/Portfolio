@@ -136,7 +136,7 @@ const Project=()=>{
                   
                   <div>
                         <button>
-                        <a href='https://shopminiproject.netlify.app/' target="_blank" rel="noreferrer">
+                        <a href='https://shopcartapp.netlify.app//' target="_blank" rel="noreferrer">
                                 DEMO
                         </a>
                      </button>
