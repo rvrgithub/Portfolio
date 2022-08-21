@@ -1,0 +1,139 @@
+.rootCont {
+  /* height: 90vh; */
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* padding-bottom: 10vh; */
+  text-align: center;
+  
+}
+
+
+.rootCont h1 {
+  color: #ff006d;
+
+  margin: 0 auto;
+}
+.rootCont > p {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  /* margin: 10; */
+}
+.rootCont > p:nth-of-type(1) {
+  font-size: 40px;
+  font-weight: 400;
+  color: #ff006d;
+  
+}
+.skillsContFront div:hover{ 
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  /* box-shadow: 0px 0px 15px 15px #c5c5c5; */
+  color: white;
+  background-color: #ff006d;
+}
+.skillsContFront {
+  display: grid;
+  grid-template-columns: repeat(6, 16.6%);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  /* height: 50vh; */
+}
+.skillsContBack {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  /* height: 50vh; */
+  /* border: 1px solid red; */
+}
+.skillsContBack div:hover{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color: white;
+  background-color: #ff006d;
+}
+.toolsDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+}
+.toolsDiv div:hover{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color: white;
+  background-color: #ff006d;
+}
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  margin: auto;
+}
+.skillIcon {
+  font-size: 40px;
+  color: rgb(8, 111, 143);
+}
+.expSkillIcon {
+  font-size: 31px;
+  font-weight: 470;
+  /* color: rgb(8, 111, 143); */
+  /* background-color: #ff006d; */
+}
+.reactIcon {
+  color: rgb(94, 211, 243);
+}
+.reduxIcon {
+  color: rgb(118, 76, 183);
+}
+.jsIcon {
+  color: rgb(247, 223, 30);
+}
+.muiIcon {
+  color: rgb(0, 129, 203);
+}
+.htmlIcon {
+  color: rgb(233, 98, 40);
+}
+.cssIcon {
+  color: rgb(37, 75, 221);
+}
+.nodeIcon {
+  color: rgb(95, 151, 89);
+}
+.mongoIcon {
+  color: rgb(82, 167, 75);
+}
+.gitIcon {
+  color: rgb(232, 78, 49);
+}
+.expIcon {
+  margin: 0;
+}
+.expIcon {
+  color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* .rootCont {
+    height: 140vh;
+    padding-bottom: 5vh;
+  } */
+  .rootCont {
+    width: 90%;
+  }
+  .skillsContFront {
+    grid-template-columns: repeat(3, 33.3%);
+    /* height: 120vh; */
+  }
+}
