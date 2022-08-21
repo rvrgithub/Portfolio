@@ -27,7 +27,7 @@ export function AboutSection() {
        a growth-oriented environment */}
        My desire to earn a better life motivated me to put my utmost efforts into what I do. I <span className={styles.name}>Radhika verma</span>{" "}
   aspiring full-stack web developer. I like to build websites/application that serves the world.
-and always want to enhance my knowledge & adpot new technologies that make impact on people.
+And always want to enhance my knowledge & adpot new technologies that make impact on people.
             </p>
           </div>
         </div>
