@@ -25,9 +25,9 @@ export function AboutSection() {
      to leverage diverse, in-depth experience in
      development and hands-on technical expertise in
        a growth-oriented environment */}
-       My desire to earn a better life motivated me to put my utmost efforts into what I do. I <span className={styles.name}>Radhika verma</span>{" "}
+       My desire to earn a better life motivated me to put my utmost efforts into what I do. I <span className={styles.name}>Radhika Verma</span>{" "}
   aspiring full-stack web developer. I like to build websites/application that serves the world.
-And always want to enhance my knowledge & adpot new technologies that make impact on people.
+And always want to enhance my knowledge & adopt new technologies that make impact on people.
             </p>
           </div>
         </div>
